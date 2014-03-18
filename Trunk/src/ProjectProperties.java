@@ -3,59 +3,59 @@
  * Date: 16.03.14
  * Time: 23:36
  */
-import java.util.Properties;
+
 import org.apache.commons.io.IOUtils;
-import java.io.*;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Properties;
 
-public class ProjectProperties {
+public class ProjectProperties implements Constants {
     private static ProjectProperties instance;
-    private String SoapMSG;
-    private String CB_URL;
-    private String SOAPAction;
-    private String Content_Type;
+    private String soapMsg;
+    private String url;
+    private String soapAction;
+    private String contentType;
 
-    private ProjectProperties(){
-        try (InputStreamReader inputPropertiesFile = new InputStreamReader(new FileInputStream("DefaultSettings.properties"), "UTF-8");
-             FileInputStream inputSOAPMsg = new FileInputStream("SOAPmsg")) {
+    private ProjectProperties() {
+        try (InputStreamReader inputPropertiesFile = new InputStreamReader(new FileInputStream("DefaultSettings.properties"), UTF_8);
+            FileInputStream inputSOAPMsg = new FileInputStream("SOAPmsg")) {
 
             Properties propertiesFromFile = new Properties();
             propertiesFromFile.load(inputPropertiesFile);
-            CB_URL = new String(propertiesFromFile.getProperty("CB_URL"));
-            SOAPAction = new String(propertiesFromFile.getProperty("SOAPAction"));
-            Content_Type = new String(propertiesFromFile.getProperty("Content_Type"));
+            url = propertiesFromFile.getProperty(url);
+            soapAction = propertiesFromFile.getProperty(SOAPACTION);
+            contentType = propertiesFromFile.getProperty(CONTENT_TYPE);
 
-            SoapMSG = new String(IOUtils.toString(inputSOAPMsg));
-        } catch (FileNotFoundException ex) {
-            ex.printStackTrace();
-        } catch (UnsupportedEncodingException ex) {
-            ex.printStackTrace();
+            soapMsg = IOUtils.toString(inputSOAPMsg);
         } catch (IOException ex) {
             ex.printStackTrace();
         }
     }
 
-    public static ProjectProperties getInstance(){
-        if (instance == null) instance = new ProjectProperties();
+    public static ProjectProperties getInstance() {
+        if (instance == null)
+            instance = new ProjectProperties();
         return instance;
     }
 
-    public String getSoapMSG(){
+    public String getSoapMsg() {
         //replace делаем в гетере, а не в конструкторе, потому что возможно что запустим программу сегодня, а обновим завтра
-        return SoapMSG.replace("NOW", new SimpleDateFormat("yyyy-MM-dd").format(Calendar.getInstance().getTime()));
+        return soapMsg.replace(NOW, new SimpleDateFormat(DATE_PATTERN).format(Calendar.getInstance().getTime()));
     }
 
-    public String getCB_URL(){
-        return CB_URL;
+    public String getUrl() {
+        return url;
     }
 
-    public String getSOAPAction(){
-        return SOAPAction;
+    public String getSoapAction() {
+        return soapAction;
     }
 
-    public String getContent_Type(){
-        return Content_Type;
+    public String getContentType() {
+        return contentType;
     }
 }
-

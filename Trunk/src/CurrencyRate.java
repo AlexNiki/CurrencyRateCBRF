@@ -10,39 +10,39 @@ public class CurrencyRate {
     private static CurrencyRate instance;
     private HashMap<String,Currency> hmCurrencyRate = new HashMap<>();
 
-    private CurrencyRate (){};
+    private CurrencyRate (){}
 
     public static CurrencyRate getInstance()
     {
-        if (instance == null) {
+        if (instance == null)
             instance = new CurrencyRate();
-        }
+
         return instance;
     }
 
-    public void UpdateCurrencyRate() throws IOException{
+    public void updateCurrencyRate() throws Exception{
         BankClient bankClient = BankClient.getInstance();
         XMLParser xmlParser = new XMLParser();
         try{
-            hmCurrencyRate = xmlParser.GetCurrencyListFromXML(new String(bankClient.getValuteCursOnDateXml()));
+            hmCurrencyRate = xmlParser.GetCurrencyListFromXML(bankClient.getValuteCursOnDateXml());
         }catch (IOException ex){
-            throw new IOException("Не удалось обратиться к серверу ЦБ РФ");
+            throw new Exception("Не удалось обратиться к серверу ЦБ РФ");
         }
     }
 
-    public String GetCurName(String VchCode){
+    public String getCurName(String VchCode){
         return hmCurrencyRate.get(VchCode).getVname();
     }
 
-    public String GetCurRate(String VchCode){
+    public String getCurRate(String VchCode){
         return hmCurrencyRate.get(VchCode).getVcurs();
     }
 
-    public String GetCurNom(String VchCode){
+    public String getCurNom(String VchCode){
         return hmCurrencyRate.get(VchCode).getVnom();
     }
 
-    public String GetCurCode(String VchCode){
+    public String getCurCode(String VchCode){
         return hmCurrencyRate.get(VchCode).getVcode();
     }
 }

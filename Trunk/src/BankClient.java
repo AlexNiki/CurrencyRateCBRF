@@ -13,6 +13,8 @@ import java.io.*;
 
 public class BankClient {
     private static BankClient instance;
+    private static final String SOAP_ACTION = "SOAPAction";
+    private static final String CONTENT_TYPE = "Content-Type";
     private ProjectProperties projectProperties;
     private HttpClient client;
     private HttpPost httpPost;
@@ -20,10 +22,10 @@ public class BankClient {
     private BankClient (){
         projectProperties = ProjectProperties.getInstance();
         client = HttpClientBuilder.create().build();
-        httpPost = new HttpPost(projectProperties.getCB_URL());
-        httpPost.addHeader("SOAPAction", projectProperties.getSOAPAction());
-        httpPost.setHeader("Content-Type",projectProperties.getContent_Type());
-    };
+        httpPost = new HttpPost(projectProperties.getUrl());
+        httpPost.addHeader(SOAP_ACTION, projectProperties.getSoapAction());
+        httpPost.setHeader(CONTENT_TYPE,projectProperties.getContentType());
+    }
 
     public static BankClient getInstance()
     {
@@ -34,9 +36,9 @@ public class BankClient {
     }
 
     public String getValuteCursOnDateXml() throws IOException{
-        String CursOnDateXml = new String();
+        String CursOnDateXml;
         try {
-                httpPost.setEntity(new StringEntity(projectProperties.getSoapMSG()));
+                httpPost.setEntity(new StringEntity(projectProperties.getSoapMsg()));
                 HttpResponse httpResponse = client.execute(httpPost);
                 CursOnDateXml = IOUtils.toString((new InputStreamReader(httpResponse.getEntity().getContent())));
         } catch (Exception ex) {
