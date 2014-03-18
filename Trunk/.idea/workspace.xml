@@ -3,35 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="09efc99a-03b4-48fa-a390-8b0ba71ce28b" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankClient.java" afterPath="$PROJECT_DIR$/src/BankClient.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConversionRate.iml" afterPath="$PROJECT_DIR$/ConversionRate.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_6.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CurrencyRate.java" afterPath="$PROJECT_DIR$/src/CurrencyRate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ProjectProperties.java" afterPath="$PROJECT_DIR$/src/ProjectProperties.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XMLParser.java" afterPath="$PROJECT_DIR$/src/XMLParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_6.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XMLParser.java" afterPath="$PROJECT_DIR$/src/XMLParser.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BankClient.java" afterPath="$PROJECT_DIR$/src/BankClient.java" />
     </list>
     <ignored path="ConversionRate.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1394375632096" ignored="false" />
     <file path="/sample.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1394375631178" ignored="false" />
-    <file path="/CurrencyRate.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395116660021" ignored="false" />
-    <file path="/Main.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395080169994" ignored="false" />
-    <file path="/fragment.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395078475103" ignored="false" />
-    <file path="/BankClient.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395116905014" ignored="false" />
+    <file path="/CurrencyRate.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395166237824" ignored="false" />
+    <file path="/Main.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395166283918" ignored="false" />
+    <file path="/fragment.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395162639200" ignored="false" />
+    <file path="/BankClient.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395165040900" ignored="false" />
     <file path="/DefaultSettings.properties" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1394995655505" ignored="false" />
     <file path="/Properties.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1394991374012" ignored="false" />
     <file path="/SOAPmsg" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395075201732" ignored="false" />
     <file path="$PROJECT_DIR$/.idea/misc.xml" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1394986803921" ignored="false" />
-    <file path="/ProjectProperties.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395115816249" ignored="false" />
+    <file path="/ProjectProperties.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395161502050" ignored="false" />
     <file path="/ActionScript File Header.txt.ft" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1394992074874" ignored="false" />
     <file path="/File Header.txt.ft" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1394992317511" ignored="false" />
     <file path="/Currency.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1394992667753" ignored="false" />
-    <file path="/XMLParser.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395117622901" ignored="false" />
+    <file path="/XMLParser.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395165556466" ignored="false" />
     <file path="/Dummy.txt" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395114299246" ignored="false" />
-    <file path="/Constants.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395115689837" ignored="false" />
-    <file path="$PROJECT_DIR$/META-INF/plugin.xml" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395117518833" ignored="false" />
+    <file path="/Constants.java" changelist="09efc99a-03b4-48fa-a390-8b0ba71ce28b" time="1395165596020" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -88,7 +88,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -98,34 +97,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="42" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+            <state line="4" column="3" selection-start="54" selection-end="54" vertical-scroll-proportion="0.06718925">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectProperties.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ProjectProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="29" selection-start="510" selection-end="527" vertical-scroll-proportion="0.18405512">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleDateFormat.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Java/jdk1.7/src.zip!/java/text/SimpleDateFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="557" column="11" selection-start="21730" selection-end="21730" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#94167#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#19892#19910#0" expanded="false" />
-                <element signature="e#20100#20122#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -133,25 +109,7 @@
       <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="43" selection-start="276" selection-end="288" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SOAPmsg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SOAPmsg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="50" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultSettings.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DefaultSettings.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="12" selection-start="103" selection-end="115" vertical-scroll-proportion="0.0">
+            <state line="11" column="50" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,7 +118,7 @@
       <file leaf-file-name="XMLParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/XMLParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="44" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
+            <state line="20" column="100" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,26 +129,10 @@
       <file leaf-file-name="BankClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BankClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="49" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpClientBuilder.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/httpclient-4.3.3.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="146" column="59" selection-start="10271" selection-end="10271" vertical-scroll-proportion="-34.36">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringEntity.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/httpcore-4.3.2.jar!/org/apache/http/entity/StringEntity.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="11" selection-start="1017" selection-end="1017" vertical-scroll-proportion="-14.28">
-              <folding />
+            <state line="49" column="67" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,7 +140,7 @@
       <file leaf-file-name="Currency.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Currency.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="11" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+            <state line="30" column="59" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -207,7 +149,7 @@
       <file leaf-file-name="CurrencyRate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CurrencyRate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="77" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
+            <state line="36" column="28" selection-start="941" selection-end="951" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -233,16 +175,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/DefaultSettings.properties" />
         <option value="$PROJECT_DIR$/src/Properties.java" />
-        <option value="$PROJECT_DIR$/src/Currency.java" />
         <option value="$PROJECT_DIR$/DefaultSettings.properties" />
-        <option value="$PROJECT_DIR$/SOAPmsg" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Constants.java" />
-        <option value="$PROJECT_DIR$/src/ProjectProperties.java" />
         <option value="$PROJECT_DIR$/src/api/ICurrencyRate.java" />
+        <option value="$PROJECT_DIR$/SOAPmsg" />
+        <option value="$PROJECT_DIR$/src/ProjectProperties.java" />
         <option value="$PROJECT_DIR$/src/BankClient.java" />
         <option value="$PROJECT_DIR$/src/XMLParser.java" />
+        <option value="$PROJECT_DIR$/src/Currency.java" />
+        <option value="$PROJECT_DIR$/src/Constants.java" />
         <option value="$PROJECT_DIR$/src/CurrencyRate.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
@@ -250,10 +192,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -299,8 +239,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -339,6 +277,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,12 +294,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -433,20 +373,17 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="GLUE" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -477,22 +414,20 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="GLUE" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="RemoteFlashRunConfigurationType" factoryName="Flash Remote Debug">
-      <option name="BCName" value="" />
-      <option name="moduleName" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -510,17 +445,9 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="CFConfiguration" factoryName="Remote">
-      <option name="PORT" value="80" />
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <option name="USERNAME" value="" />
-        <option name="PASSWORD" value="" />
-        <data />
-      </server-settings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration default="true" type="RemoteFlashRunConfigurationType" factoryName="Flash Remote Debug">
+      <option name="BCName" value="" />
+      <option name="moduleName" value="" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -542,6 +469,19 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="CFConfiguration" factoryName="Remote">
+      <option name="PORT" value="80" />
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+        <data />
+      </server-settings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -621,40 +561,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953826" sideWeight="0.6703125" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12219851" sideWeight="0.6705998" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31371087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953826" sideWeight="0.6703125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953826" sideWeight="0.6703125" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3442623" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953826" sideWeight="0.6703125" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12211615" sideWeight="0.68628913" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31371087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935917" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3442623" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -734,36 +674,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjectProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="77" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CurrencyRate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="57" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/XMLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1930" selection-end="1930" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Currency.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="22" selection-start="618" selection-end="621" vertical-scroll-proportion="0.0">
@@ -774,7 +684,9 @@
     <entry file="file://$PROJECT_DIR$/src/BankClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="61" selection-start="1099" selection-end="1110" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -795,77 +707,39 @@
         <state line="127" column="38" selection-start="7068" selection-end="7068" vertical-scroll-proportion="-10.36" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SOAPmsg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DefaultSettings.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="12" selection-start="103" selection-end="115" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.7/src.zip!/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="557" column="11" selection-start="21730" selection-end="21730" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#94167#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#19892#19910#0" expanded="false" />
-            <element signature="e#20100#20122#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.7/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="309" column="22" selection-start="14308" selection-end="14308" vertical-scroll-proportion="-41.06496">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/httpcore-4.3.2.jar!/org/apache/http/entity/StringEntity.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="11" selection-start="1017" selection-end="1017" vertical-scroll-proportion="-14.28">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="276" selection-end="288" vertical-scroll-proportion="0.0">
+        <state line="22" column="11" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.38018432">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/httpclient-4.3.3.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="59" selection-start="10271" selection-end="10271" vertical-scroll-proportion="-34.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Currency.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+        <state line="146" column="59" selection-start="10271" selection-end="10271" vertical-scroll-proportion="0.87903225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/XMLParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="44" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
+        <state line="20" column="100" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="59" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BankClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="67" selection-start="1741" selection-end="1741" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -874,21 +748,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CurrencyRate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="77" selection-start="674" selection-end="674" vertical-scroll-proportion="0.0">
+        <state line="36" column="28" selection-start="941" selection-end="951" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BankClient.java">
+    <entry file="file://$PROJECT_DIR$/src/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="49" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
+        <state line="11" column="50" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProjectProperties.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="510" selection-end="527" vertical-scroll-proportion="0.18405512">
+        <state line="4" column="3" selection-start="54" selection-end="54" vertical-scroll-proportion="0.06718925">
           <folding />
         </state>
       </provider>

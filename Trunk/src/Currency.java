@@ -11,10 +11,10 @@ public class Currency {
     private String VchCode; // Символьный код валюты
 
     public Currency(String Vname, String Vnom, String Vcurs, String Vcode, String VchCode){
-        this.Vname = Vname;
-        this.Vnom = Vnom;
-        this.Vcurs = Vcurs;
-        this.Vcode = Vcode;
+        this.Vname   = Vname;
+        this.Vnom    = Vnom;
+        this.Vcurs   = Vcurs;
+        this.Vcode   = Vcode;
         this.VchCode = VchCode;
     }
 
