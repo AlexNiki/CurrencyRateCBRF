@@ -13,7 +13,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.util.HashMap;
 
 public class XMLParser implements Constants {
-    public HashMap<String,Currency> GetCurrencyListFromXML(String stringXML) throws Exception{
+    public HashMap<String,Currency> getCurrencyListFromXML(String stringXML) throws Exception{
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         HashMap<String,Currency> hmCurrency = new HashMap<>();
         try{

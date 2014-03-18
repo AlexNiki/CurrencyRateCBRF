@@ -24,7 +24,7 @@ public class CurrencyRate {
         BankClient bankClient = BankClient.getInstance();
         XMLParser xmlParser = new XMLParser();
         try{
-            hmCurrencyRate = xmlParser.GetCurrencyListFromXML(bankClient.getCursOnDateXml());
+            hmCurrencyRate = xmlParser.getCurrencyListFromXML(bankClient.getCursOnDateXml());
         }catch (IOException ex){
             throw new Exception("Не удалось обратиться к серверу ЦБ РФ");
         }
