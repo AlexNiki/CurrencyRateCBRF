@@ -20,14 +20,10 @@ public class CurrencyRate {
         return instance;
     }
 
-    public void updateCurrencyRate() throws Exception{
+    public void updateCurrencyRate() throws ConversionRateException{
         BankClient bankClient = BankClient.getInstance();
         XMLParser xmlParser = new XMLParser();
-        try{
-            hmCurrencyRate = xmlParser.getCurrencyListFromXML(bankClient.getCursOnDateXml());
-        }catch (IOException ex){
-            throw new Exception("Не удалось обратиться к серверу ЦБ РФ");
-        }
+        hmCurrencyRate = xmlParser.getCurrencyListFromXML(bankClient.getCursOnDateXml());
     }
 
     public String getCurName(String VchCode){
