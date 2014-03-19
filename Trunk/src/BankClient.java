@@ -24,11 +24,10 @@ public class BankClient implements Constants{
         return instance;
     }
 
-    public String getCursOnDateXml() throws Exception{
-        String CursOnDateXml = null;
-        SOAPConnectionFactory soapConnFactory = SOAPConnectionFactory.newInstance();
-        SOAPConnection soapConnection = soapConnFactory.createConnection();
-        try {
+    public String getCursOnDateXml() throws ConversionRateException{
+        String CursOnDateXml;
+        try{
+            SOAPConnection soapConnection = SOAPConnectionFactory.newInstance().createConnection();
             String destination = DESTINATION_CBR;
             SOAPMessage soapMessage = soapConnection.call(getSoapRequestToCursOnDate(), destination);
 
@@ -36,33 +35,33 @@ public class BankClient implements Constants{
             TransformerFactory.newInstance().newTransformer().transform(soapMessage.getSOAPPart().getContent(),
                                                                         new StreamResult(stringWriter));
             CursOnDateXml = stringWriter.toString();
-        } catch (SOAPException ex) {
-            throw new Exception(ex.getCause());
-        } catch (TransformerException e) {
-            throw new Exception("Некорректный ответ сервера ЦБ РФ");
-        } catch (Exception ex) {
-            throw new Exception("Не удалось обратиться к серверу ЦБ РФ");
-        } finally {
             soapConnection.close();
+        } catch (SOAPException ex) {
+            ConversionRateException crException = new ConversionRateException(ConversionRateError.ERROR_FORMING_SOAP);
+            crException.initCause(ex);
+            throw crException;
+        } catch (TransformerException ex) {
+            ConversionRateException crException = new ConversionRateException(ConversionRateError.INCORRECT_RESPONSE);
+            crException.initCause(ex);
+            throw crException;
+        } catch (Exception ex) {
+            ConversionRateException crException = new ConversionRateException(ConversionRateError.ERROR_CONNECT);
+            crException.initCause(ex);
+            throw crException;
         }
         return CursOnDateXml;
     }
 
     private SOAPMessage getSoapRequestToCursOnDate() throws SOAPException{
         MessageFactory messageFactory = MessageFactory.newInstance();
-        SOAPMessage message = messageFactory.createMessage();
-        try {
-            SOAPPart soapPart     = message.getSOAPPart();
-            SOAPEnvelope envelope = soapPart.getEnvelope();
-            SOAPBody body         = envelope.getBody();
+        SOAPMessage message   = messageFactory.createMessage();
+        SOAPPart soapPart     = message.getSOAPPart();
+        SOAPEnvelope envelope = soapPart.getEnvelope();
+        SOAPBody body         = envelope.getBody();
 
-            SOAPElement bodyElement = body.addChildElement(envelope.createName(GET_CURS_ON_DATE_XML, NO_PREFIX, CBR_URL));
-            bodyElement.addChildElement(ON_DATE).addTextNode(new SimpleDateFormat(DATE_PATTERN).format(Calendar.getInstance().getTime()));
-            message.saveChanges();
-        }catch (SOAPException e){
-            throw new SOAPException("Ошибка формирования SOAP запроса");
-        }
+        SOAPElement bodyElement = body.addChildElement(envelope.createName(GET_CURS_ON_DATE_XML, NO_PREFIX, CBR_URL));
+        bodyElement.addChildElement(ON_DATE).addTextNode(new SimpleDateFormat(DATE_PATTERN).format(Calendar.getInstance().getTime()));
+        message.saveChanges();
         return message;
     }
-
 }
