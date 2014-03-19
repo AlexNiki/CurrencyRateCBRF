@@ -15,7 +15,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.util.HashMap;
 
 public class XMLParser implements Constants {
-    public HashMap<String, Currency> getCurrencyListFromXML(String stringXML) throws Exception {
+    public HashMap<String, Currency> getCurrencyListFromXML(String stringXML) throws ConversionRateException {
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         HashMap<String, Currency> hmCurrency = new HashMap<>();
         try {
@@ -41,7 +41,9 @@ public class XMLParser implements Constants {
                 }
             }
         } catch (Exception ex) {
-            throw ex;
+            ConversionRateException crException = new ConversionRateException(ConversionRateError.INCORRECT_RESPONSE);
+            crException.initCause(ex);
+            throw crException;
         }
         return hmCurrency;
     }
