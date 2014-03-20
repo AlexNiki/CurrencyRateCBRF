@@ -3,8 +3,7 @@
  * Date: 09.03.14
  * Time: 20:31
  */
-import java.util.*;
-import java.io.*;
+import java.util.HashMap;
 
 public class CurrencyRate {
     private static CurrencyRate instance;
@@ -22,8 +21,9 @@ public class CurrencyRate {
 
     public void updateCurrencyRate() throws ConversionRateException{
         BankClient bankClient = BankClient.getInstance();
+        bankClient.updateCursOnDate();
         XMLParser xmlParser = new XMLParser();
-        hmCurrencyRate = xmlParser.getCurrencyListFromXML(bankClient.getCursOnDateXml());
+        hmCurrencyRate = xmlParser.getCurrencyListFromXML(bankClient.getCursOnDate());
     }
 
     public String getCurName(String VchCode){
